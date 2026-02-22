@@ -1,0 +1,47 @@
+# Android & Kotlin build files
+*.apk
+*.aar
+*.aab
+*.dex
+*.class
+
+# Build directories
+build/
+*/build/
+*/*/build/
+bin/
+*/bin/
+out/
+gen/
+
+# Gradle
+.gradle/
+*/.gradle/
+*/*/.gradle/
+buildOutputCleanup/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*/.idea/
+*.iml
+*.iws
+*.ipr
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local device / SDK configuration
+local.properties
+*/local.properties
+
+# Log files
+*.log
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
